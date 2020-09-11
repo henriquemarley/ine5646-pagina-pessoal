@@ -10,3 +10,7 @@ table{
 .intro {
     background-color: white;
 }
+
+.lista > li {
+    list-style: none
+ }
