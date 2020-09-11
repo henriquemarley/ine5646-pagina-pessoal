@@ -1,5 +1,6 @@
 *{
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 table{
@@ -7,10 +8,16 @@ table{
     border-width: 12;
 }
 
-.intro {
+/*.intro {
     background-color: white;
-}
+}*/
 
 .lista > li {
-    list-style: none
+    list-style: none;
  }
+
+.styleButton {
+    color: black;
+}
+
+ body { background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e1b35f2a-70fc-4a69-8400-fe353f542161/d49f6ug-70216766-116c-42f9-8e23-1f08ce31fc12.jpg/v1/fill/w_1600,h_900,q_75,strp/figueirense_futebol_clube_by_rdjdesign_d49f6ug-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD05MDAiLCJwYXRoIjoiXC9mXC9lMWIzNWYyYS03MGZjLTRhNjktODQwMC1mZTM1M2Y1NDIxNjFcL2Q0OWY2dWctNzAyMTY3NjYtMTE2Yy00MmY5LThlMjMtMWYwOGNlMzFmYzEyLmpwZyIsIndpZHRoIjoiPD0xNjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.soc5jF7vFa3vrHNDi6VvlI0KurfwCO_e8gcs4-wANTQ);
