@@ -16,6 +16,16 @@ document.getElementById("add2").onclick  = function() {
     document.getElementById("listaPerguntas").appendChild(li);
 }
 
+document.getElementById("alterarNome").onclick = function() {
+    var nome;
+    nome = prompt("Digite o seu nome completo");
+    if(nome != "" && nome != null) {
+    document.getElementById("nomeUsuario").innerText = nome; 
+    } else {
+        alert("É necessário digitar um nome válido.")
+    }
+}
+
 document.getElementById("alterarCurso").onclick = function() {
     var nome;
     nome = prompt("Digite o seu novo cargo ou curso");
